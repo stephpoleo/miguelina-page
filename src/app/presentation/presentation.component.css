@@ -1,5 +1,5 @@
 .presentacion-container {
-    background-image: url('./assets/img/rd.jpg');
+    background-image: url('../assets/img/rd.jpg');
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
