@@ -1,0 +1,84 @@
+.presentacion-container {
+    background-image: url('/assets/img/rd.jpg');
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center;
+    width: 96%;
+    height: 98%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    height: 30%;
+    align-content: center;
+    margin-top: 60%;
+    display: flow;
+}
+
+.profile-pic {
+    width: 50%;
+    height: 71%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.6em;
+    color: #666;
+}
+
+.about-me, .contact {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+ 
+.contact-buttons {
+    margin-top: 37%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 27%;
+    height: 11%;
+}
+
+.contact-buttons img {
+    width: 80%;
+}
+
+.contact-buttons button:hover {
+    background-color: #0056b3;
+}
