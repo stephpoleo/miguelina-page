@@ -1,10 +1,10 @@
 .presentacion-container {
-    background-image: url('/miguelina-page/assets/img/rd.jpg');
+    background-image: url('assets/img/rd.jpg');
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
-    width: 96%;
-    height: 98%;
+    width: 86vw;
+    height: 93vh;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -30,35 +30,17 @@
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 7vw;
     margin: 0;
 }
 
 p {
-    font-size: 1.6em;
+    font-size: 2.7vw;
     color: #666;
-}
-
-.about-me, .contact {
-    margin-top: 20px;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
 }
  
 .contact-buttons {
-    margin-top: 37%;
+    margin-top: 19vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -66,13 +48,13 @@ li {
 }
 
 .contact-buttons button {
-    margin-right: 10px;
-    padding: 10px 20px;
+    margin-right: 3vw;
+    padding: 2vw 2vw;
     border: none;
     border-radius: 21px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 27%;
-    height: 11%;
+    background-color: #fffc;
+    width: 22vw;
+    height: 10vh;
 }
 
 .contact-buttons img {
