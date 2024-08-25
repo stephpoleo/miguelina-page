@@ -1,5 +1,5 @@
 .presentacion-container {
-    background-image: url('/assets/img/rd.jpg');
+    background-image: url('/miguelina-page/assets/img/rd.jpg');
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
@@ -12,14 +12,14 @@
 
 .header {
     text-align: center;
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    margin-bottom: 0vh;
+    background-color: #fffc;
+    padding: 7vw;
     border-radius: 10px;
     height: 30%;
-    align-content: center;
-    margin-top: 60%;
-    display: flow;
+    align-content: flex-start;
+    margin-top: 30%;
+    display: inline-block;
 }
 
 .profile-pic {
