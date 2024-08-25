@@ -14,12 +14,13 @@ export class PresentationComponent {
   download: () => void = () => {};
 
   nombre: string = 'Miguelina Ruiz';
-  titulo: string =
-    'Directora de la Oficina de Turismo de la Republica Dominicana';
+  titulo: string = 'Directora';
+  work: string = 'Oficina de Promocion Turistica de la Republica Dominicana';
   email: string = 'm.ruiz@mitur.gob.do';
   telefono: string = '+584143315304';
   linkedin: string = 'https://www.linkedin.com/in/miguelina-ruiz-10664ba7';
   instagram: string = 'https://www.instagram.com/miguelinaruiz/';
+  whatsapp: string = 'https://wa.me/584143315304';
 
   constructor(private sanitizer: DomSanitizer) {
     if (this.isBrowser()) {
@@ -44,12 +45,13 @@ export class PresentationComponent {
     vCard.version = '3.0';
     vCard.set('fn', this.nombre);
     vCard.set('title', this.titulo);
+    vCard.set('org', this.work);
     vCard.set('email', this.email);
     vCard.set('tel', this.telefono);
     vCard.set('url', this.linkedin);
 
     const photoBase64 = await this.getBase64ImageFromURL(
-      'assets/img/miguelina_ruiz.jpg'
+      '/miguelina-page/assets/img/miguelina_ruiz.jpg'
     );
     vCard.set('photo', `data:image/jpeg;base64,${photoBase64}`);
 
@@ -109,6 +111,9 @@ export class PresentationComponent {
         break;
       case 'linkedin':
         window.location.href = this.linkedin;
+        break;
+      case 'whatsapp':
+        window.location.href = this.whatsapp;
         break;
       case 'phone':
         await this.download();

@@ -1,8 +1,9 @@
 <div class="presentacion-container">
     <div class="header">
-      <img src="assets/img/miguelina_ruiz.jpg" alt="Foto de Perfil" class="profile-pic">
+      <img src="assets/img/miguelina_ruiz.jpeg" alt="Foto de Perfil" class="profile-pic">
       <h1>{{nombre}}</h1>
-      <p>{{titulo}}</p>
+      <h2>{{titulo}}</h2>
+      <p>{{work}}</p>
     </div>
     
     <div class="contact-buttons">
@@ -14,6 +15,9 @@
         </button>
         <button (click)="saveContact('phone')">
             <img src="assets/img/save-contact.png" alt="LinkedIn">
-          </button>
+        </button>
+        <button (click)="saveContact('whatsapp')">
+          <img src="assets/img/whatsapp.png" alt="LinkedIn">
+      </button>
     </div>
 </div>
