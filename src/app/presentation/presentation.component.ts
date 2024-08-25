@@ -11,8 +11,8 @@ export class PresentationComponent {
   nombre: string = 'Miguelina Ruiz';
   titulo: string =
     'Directora de la Ofina de Turismo de la Republica Dominicana';
-  email: string = 'juan.perez@example.com';
-  telefono: string = '+123 456 7890';
+  email: string = 'm.ruiz@mitur.gob.do';
+  telefono: string = '+584143315304';
   linkedin: string = 'https://www.linkedin.com/in/miguelina-ruiz-10664ba7';
   instagram: string = 'https://www.instagram.com/miguelinaruiz/';
 
